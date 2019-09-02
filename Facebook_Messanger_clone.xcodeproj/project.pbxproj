@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F84B744231CC88700213E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B743231CC88700213E2B /* AppDelegate.swift */; };
 		3F84B746231CC88700213E2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B745231CC88700213E2B /* ViewController.swift */; };
-		3F84B749231CC88700213E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F84B747231CC88700213E2B /* Main.storyboard */; };
 		3F84B74C231CC88700213E2B /* Facebook_Messanger_clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F84B74A231CC88700213E2B /* Facebook_Messanger_clone.xcdatamodeld */; };
 		3F84B74E231CC88800213E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F84B74D231CC88800213E2B /* Assets.xcassets */; };
 		3F84B751231CC88800213E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F84B74F231CC88800213E2B /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 		3F84B740231CC88700213E2B /* Facebook_Messanger_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook_Messanger_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F84B743231CC88700213E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F84B745231CC88700213E2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F84B748231CC88700213E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F84B74B231CC88700213E2B /* Facebook_Messanger_clone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Facebook_Messanger_clone.xcdatamodel; sourceTree = "<group>"; };
 		3F84B74D231CC88800213E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F84B750231CC88800213E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 			children = (
 				3F84B743231CC88700213E2B /* AppDelegate.swift */,
 				3F84B745231CC88700213E2B /* ViewController.swift */,
-				3F84B747231CC88700213E2B /* Main.storyboard */,
 				3F84B74D231CC88800213E2B /* Assets.xcassets */,
 				3F84B74F231CC88800213E2B /* LaunchScreen.storyboard */,
 				3F84B752231CC88800213E2B /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				3F84B751231CC88800213E2B /* LaunchScreen.storyboard in Resources */,
 				3F84B74E231CC88800213E2B /* Assets.xcassets in Resources */,
-				3F84B749231CC88700213E2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F84B747231CC88700213E2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F84B748231CC88700213E2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F84B74F231CC88800213E2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D58TTN334;
 				INFOPLIST_FILE = Facebook_Messanger_clone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D58TTN334;
 				INFOPLIST_FILE = Facebook_Messanger_clone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
